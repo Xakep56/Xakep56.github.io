@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('path-to-your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-group {
+    margin: 10px 0;
+}
+
+button {
+    background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 300px;
+    max-width: 100%;
+}
+
+button span {
+    display: block;
+    font-size: 14px;
+    color: #ccc;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #8E2DE2, #4A00E0);
+}
+
+
